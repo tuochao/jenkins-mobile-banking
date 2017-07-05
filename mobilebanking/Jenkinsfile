@@ -5,6 +5,6 @@ node {
     }
     stage('ACCEPTANCE') {
         echo 'The ACCEPTANCE stage'
-        python '~/Project/jenkins-mobile-banking/robotframework-webdemo/login_tests/test_demoServer.py'
+        sh 'python ~/Project/jenkins-mobile-banking/robotframework-webdemo/login_tests/test_demoServer.py'
     }
 }
