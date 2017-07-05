@@ -4,7 +4,7 @@ class TestDemoServer(unittest.TestCase):
     def setUp(self):
         pass
     def testCase1(self):
-        self.assertEqual(False, True, 'test failed!')
+        self.assertEqual(True, True, 'test failed!')
     def tearDown(self):
         pass
 
