@@ -11,6 +11,5 @@ public class Login {
 
     private void checkUsernameAndPassword(String username, String password) {
         int a = 1;
-        int b = 2;
     }
 }
